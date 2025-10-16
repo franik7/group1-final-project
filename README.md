@@ -109,7 +109,7 @@ Tamper-proof records for training and audits (SHA-256 hash, digital signature, t
 
 ### EU Flow — AI Literacy
 1. Employee assigned to new AI System → auto-enrollment created.  
-2. Employee completes training on AI Literacy website (React + Firebase).  
+2. Employee completes training on AI Literacy website.  
 3. MCP Server detects completion → sends data to ServiceNow.  
 4. ServiceNow updates `Training Enrollment`.  
 5. Digital Signature Agent creates `Evidence Pack` + updates `AI Systems.Compliance Status`.
