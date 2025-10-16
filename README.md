@@ -25,7 +25,7 @@ Cross-enterprise MCP integration means **AI-to-AI audit coordination**, cutting 
 
 ## Regulatory Context
 
-### 🇪🇺 EU AI Act – Article 4 (AI Literacy)
+### EU AI Act – Article 4 (AI Literacy)
 - **Active:** 2 Feb 2025  
 - **Who:** Providers → Deployers → Operators → Affected Persons  
 - **Requirement:** All staff developing, operating, or affected by AI must receive documented, role-appropriate training.  
