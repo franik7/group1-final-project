@@ -4,7 +4,7 @@
 ---
 
 ## Executive Summary
-We built **AC³ — AI Compliance Command Center** to solve a **€15 million problem**.
+We are the **Lawgorithm Labs** and we built **AC³ — AI Compliance Command Center** to solve a **€15 million problem**.
 
 Two AI regulations are already active and enforceable:
 - **EU AI Act Article 4** — requires documented AI literacy training.  
