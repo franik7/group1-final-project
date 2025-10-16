@@ -1,4 +1,4 @@
-# **AI Compliance Command Center (AC³)**
+# **The Lawgorithm Labs' AI Compliance Command Center (AC³)**
 **Tagline:** *“From Regulatory Chaos to One-Click Compliance”*
 
 ---
