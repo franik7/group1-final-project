@@ -15,9 +15,14 @@ Two AI regulations are already active and enforceable:
 Current approach = manual Excel tracking, weeks of audit prep, no real-time visibility.  
 **AC³ replaces that with three coordinated AI agents on ServiceNow:**
 
-1. **Training Orchestrator Agent** – detects who needs AI literacy training, auto-enrolls, tracks completion.  
-2. **Audit Coordinator Agent** – schedules NYC bias audits and integrates with the external MCP server.  
-3. **Evidence Packager Agent** – generates cryptographically signed evidence packs in minutes.  
+- **Training Orchestrator Agent** – manages AI literacy training under the **EU AI Act (Article 4)**.  
+  Detects employees needing training, auto-enrolls them, tracks completion, and triggers evidence generation.
+
+- **Audit Coordinator Agent** – manages bias audits required by **NYC Local Law 144**.  
+  Handles audit scheduling, dataset preparation, and coordination with external MCP auditors.  
+  - **Sub-Function:** *Internal Audit Agent* — performs internal fairness testing (selection and impact ratio checks) before sending data for external audit.
+
+- **Evidence Packager (Digital Signature) Agent** – generates **SHA-256 cryptographically signed Evidence Packs** for both training and audit records, ensuring data integrity and verifiable compliance.
 
 Cross-enterprise MCP integration means **AI-to-AI audit coordination**, cutting a 21-day workflow to minutes.
 
