@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-10-17 16:56:21">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<application_name>AI Compliance Command Center</application_name>
+<application_scope>x_snc_ai_complia_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Regulatory Alert/ Federal Register API v1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>786d4c9383e032107f44c85d50da1ea2</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>f68ecc5783e032107f44c85d50da1eee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ai_complia_0_regulatory_alert_publication_date</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="publication_date" table="x_snc_ai_complia_0_regulatory_alert"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Publication Date</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>publication_date</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_date</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_ai_complia_0_regulatory_alert</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:57</sys_created_on><sys_id>c9cd401783e032107f44c85d50da1e0c</sys_id><sys_name>Publication Date</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_dictionary_x_snc_ai_complia_0_regulatory_alert_publication_date</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:58</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>610620263</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>328ecc5783e032107f44c85d50da1ef0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f316c1840000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert.Publication Date</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e1cd401783e03210588d221e39145cca</update_guid>
+<update_guid_history>e1cd401783e03210588d221e39145cca:610620263,ddcd40170ae032104644b100cdf3369e:-1565435766</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_x_snc_ai_complia_0_regulatory_alert_document_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="document_type" table="x_snc_ai_complia_0_regulatory_alert" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>document_type</element><name>x_snc_ai_complia_0_regulatory_alert</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:59</sys_created_on><sys_id>35cd401783e032107f44c85d50da1ef7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>document_type</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_choice_x_snc_ai_complia_0_regulatory_alert_document_type</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>document_type</element><hint/><inactive>false</inactive><label>Rule</label><language>en</language><name>x_snc_ai_complia_0_regulatory_alert</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bdcd401783e032107f44c85d50da1ef6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on><value>rule</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>document_type</element><hint/><inactive>false</inactive><label>Proposed Rule</label><language>en</language><name>x_snc_ai_complia_0_regulatory_alert</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7dcd401783e032107f44c85d50da1ef8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on><value>proposed_rule</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>document_type</element><hint/><inactive>false</inactive><label>Notice</label><language>en</language><name>x_snc_ai_complia_0_regulatory_alert</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b9cd401783e032107f44c85d50da1ef9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on><value>notice</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-482648471</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>368ecc5783e032107f44c85d50da1eef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f316c4960000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert.Document Type</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>75cd40170ee03210b3c73ff16cd26bfb</update_guid>
+<update_guid_history>75cd40170ee03210b3c73ff16cd26bfb:-482648471</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ai_complia_0_regulatory_alert_publication_date_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="publication_date" label="Publication Date" language="en" table="x_snc_ai_complia_0_regulatory_alert"><sys_documentation action="INSERT_OR_UPDATE"><element>publication_date</element><help/><hint/><label>Publication Date</label><language>en</language><name>x_snc_ai_complia_0_regulatory_alert</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:57</sys_created_on><sys_id>1dcd401783e032107f44c85d50da1e10</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Publication Date</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_documentation_x_snc_ai_complia_0_regulatory_alert_publication_date_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1761200080</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>7a8ecc5783e032107f44c85d50da1ef0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f316c25d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert.Publication Date</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6dcd401724e03210aadde91b9c8a43e2</update_guid>
+<update_guid_history>6dcd401724e03210aadde91b9c8a43e2:1761200080,edcd401717e032102ed3ff1003ced7db:1761200080,65cd40174fe032104f2dadb72cd876a3:-839401621</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ai_complia_0_regulatory_alert_document_type</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="document_type" table="x_snc_ai_complia_0_regulatory_alert"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Document Type</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>document_type</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Choice">choice</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_ai_complia_0_regulatory_alert</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:57</sys_created_on><sys_id>55cd401783e032107f44c85d50da1e8f</sys_id><sys_name>Document Type</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_dictionary_x_snc_ai_complia_0_regulatory_alert_document_type</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1992825710</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>7e8ecc5783e032107f44c85d50da1eef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f316c3210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert.Document Type</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e5cd401788e0321087b8b6fcecba8cf5</update_guid>
+<update_guid_history>e5cd401788e0321087b8b6fcecba8cf5:1992825710,e5cd40176ae0321001791e1dbd8d16a1:1898403275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ai_complia_0_regulatory_alert_document_type_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="document_type" label="Document Type" language="en" table="x_snc_ai_complia_0_regulatory_alert"><sys_documentation action="INSERT_OR_UPDATE"><element>document_type</element><help/><hint/><label>Document Type</label><language>en</language><name>x_snc_ai_complia_0_regulatory_alert</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 16:52:57</sys_created_on><sys_id>d9cd401783e032107f44c85d50da1e91</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Document Type</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_documentation_x_snc_ai_complia_0_regulatory_alert_document_type_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1729181483</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>b68ecc5783e032107f44c85d50da1ef0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f316c5490000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert.Document Type</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>75cd8017c2e032101f8a2c2b10c94f06</update_guid>
+<update_guid_history>75cd8017c2e032101f8a2c2b10c94f06:-1729181483,39cd401708e03210fa513604ab6053ff:-1729181483,e1cd40175de032103f4be2bade84fda5:-1522283365</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ai_complia_0_regulatory_alert_alert_title</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="alert_title" table="x_snc_ai_complia_0_regulatory_alert"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>title</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>alert_title</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>255</max_length><name>x_snc_ai_complia_0_regulatory_alert</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-13 17:51:35</sys_created_on><sys_id>cdd4bf79836032107f44c85d50da1ed0</sys_id><sys_name>title</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_dictionary_x_snc_ai_complia_0_regulatory_alert_alert_title</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:52:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>17543177</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>ba8ecc5783e032107f44c85d50da1eef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f316c5d90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert.title</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>31cd8017f4e032101f0ba136fb314a1b</update_guid>
+<update_guid_history>31cd8017f4e032101f0ba136fb314a1b:17543177,44c5011a7b60321013503f9a00a2c8db:1746807273,2dd4ff79ed603210d2d3bb1dddd91b2a:408189081,65d4ff791b603210a3089a9b0e591622:-522825001,d9d4bf799e603210975cbcc3ad6eefec:-1897796908</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ai_complia_0_regulatory_alert_alert_title_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="alert_title" label="title" language="en" table="x_snc_ai_complia_0_regulatory_alert"><sys_documentation action="INSERT_OR_UPDATE"><element>alert_title</element><help/><hint/><label>title</label><language>en</language><name>x_snc_ai_complia_0_regulatory_alert</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-13 17:51:35</sys_created_on><sys_id>45d4bf79836032107f44c85d50da1ed3</sys_id><sys_mod_count>10</sys_mod_count><sys_name>title</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_documentation_x_snc_ai_complia_0_regulatory_alert_alert_title_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 16:53:00</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1786622908</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>f28ecc5783e032107f44c85d50da1ef0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f316c7750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert.title</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>42cd8017fce032108773816c5fad1d27</update_guid>
+<update_guid_history>42cd8017fce032108773816c5fad1d27:1786622908,35cd80171ae032101d35dc424aa14920:1786622908,f5cd8017f4e03210d2d349aa4326761c:-1233778053,add4ff79de6032103f74da55e9e0782f:-1492763937,a1d4ff79b76032101c31cff13285ab2c:-1969590981,55d4bf79a1603210fb2b5d6eb58f4af0:1501782651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_ef93ffb5836032107f44c85d50da1e75</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_extendable>false</is_extendable><label>Regulatory Alert</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_ai_complia_0_regulatory_alert</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-13 17:47:40</sys_created_on><sys_id>ef93ffb5836032107f44c85d50da1e75</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Regulatory Alert</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_db_object_ef93ffb5836032107f44c85d50da1e75</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-13 17:47:40</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_ai_complia_0.regulatory_alert_user" name="x_snc_ai_complia_0.regulatory_alert_user">3fe33f35836032107f44c85d50da1e97</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-565871595</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>f68ecc5783e032107f44c85d50da1eef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f31773ce0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>74fd40d311e032101e7159a997a21797</update_guid>
+<update_guid_history>74fd40d311e032101e7159a997a21797:-565871595,49f33ff5f6603210ada379e471012f88:-565871595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_e1b5333d836032107f44c85d50da1ec7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time&gt;1970-01-01 00:00:00&lt;/entered_time&gt;&lt;max_drift/&gt;&lt;name&gt;RSS Test&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2025-10-13 17:55:26&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 00:00:00&lt;/run_time&gt;&lt;run_type&gt;on_demand&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Load AI-related Federal Register documents
+ * populate ONLY alert_title + source_url.
+ * Run elevated (admin), but no cross-scope writes required.
+ */
+(function () {
+    gs.info('=== Federal Register AI ingest – titles + URLs ===');
+
+    // ----------------------------------------------------
+    // 1. Build API request (encoded brackets %5B %5D)
+    // ----------------------------------------------------
+    var baseUrl = 'https://www.federalregister.gov/api/v1/documents.json';
+    var params  = [
+        'per_page=100',
+        'order=newest',
+        'conditions%5Bterm%5D=artificial+intelligence+OR+AI+OR+machine+learning',
+        'conditions%5Bpublication_date%5D%5Bgte%5D=2025-01-01',
+        'fields%5B%5D=title',          // we only need title…
+        'fields%5B%5D=html_url',       // …and html_url for source_url
+        'fields%5B%5D=document_number' // used as natural key
+    ].join('&amp;');
+
+    var url = baseUrl + '?' + params;
+
+    var req = new sn_ws.RESTMessageV2();
+    req.setEndpoint(url);
+    req.setHttpMethod('get');
+    req.setHttpTimeout(15000);
+
+    var res = req.execute();
+    if (res.getStatusCode() !== 200) {
+        gs.error('Federal Register API failed: ' + res.getStatusCode());
+        return;
+    }
+
+    var body  = JSON.parse(res.getBody());
+    var docs  = body.results || [];
+    gs.info('Fetched ' + docs.length + ' documents');
+
+    // ----------------------------------------------------
+    // 2. Upsert into Regulatory Alert table
+    // ----------------------------------------------------
+    var table = 'x_snc_ai_complia_0_regulatory_alert';
+    var inserted = 0, updated = 0;
+
+    docs.forEach(function (doc) {
+        var number = doc.document_number + ''; // guarantee string
+        var gr = new GlideRecord(table);
+        gr.addQuery('document_number', number);
+        gr.query();
+
+        if (gr.next()) {
+            // Already exists – update title / URL if changed
+            var changed = false;
+            if (gr.alert_title !== doc.title) {
+                gr.setValue('alert_title', doc.title);
+                changed = true;
+            }
+            if (gr.source_url !== doc.html_url) {
+                gr.setValue('source_url', doc.html_url);
+                changed = true;
+            }
+            if (changed) {
+                gr.update();
+                updated++;
+            }
+        } else {
+            gr.initialize();
+            gr.setValue('document_number', number);
+            gr.setValue('alert_title',     doc.title);
+            gr.setValue('source_url',      doc.html_url);
+            gr.insert();
+            inserted++;
+        }
+    });
+
+    gs.info('Insert/Update complete → new: ' + inserted + ', updated: ' + updated);
+})();
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-13 17:55:44&lt;/sys_created_on&gt;&lt;sys_id&gt;e1b5333d836032107f44c85d50da1ec7&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;RSS Test&lt;/sys_name&gt;&lt;sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0"&gt;c203f775836032107f44c85d50da1e64&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AI Compliance Command Center"&gt;c203f775836032107f44c85d50da1e64&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_e1b5333d836032107f44c85d50da1ec7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-17 16:54:55&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1979184288</payload_hash>
+<remote_update_set display_value="Regulatory Alert/ Federal Register API v1">f68ecc5783e032107f44c85d50da1eee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-17 16:56:20</sys_created_on>
+<sys_id>fa8ecc5783e032107f44c85d50da1eee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199f31887f60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-17 16:56:20</sys_updated_on>
+<table/>
+<target_name>RSS Test</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>423e4457aee0321046f09b240cdd9e19</update_guid>
+<update_guid_history>423e4457aee0321046f09b240cdd9e19:-1979184288</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
