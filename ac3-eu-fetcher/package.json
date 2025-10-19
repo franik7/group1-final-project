@@ -1,0 +1,18 @@
+{
+    "name": "ac3-eu-fetcher",
+    "version": "1.0.0",
+    "description": "EU Regulatory Data Fetcher for AC3",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "axios": "^1.6.0",
+      "xml2js": "^0.6.2",
+      "cors": "^2.8.5"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }
