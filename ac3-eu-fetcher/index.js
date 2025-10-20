@@ -25,7 +25,7 @@ function buildWorkingAIActQuery(daysBack = 365) {
   cutoffDate.setDate(cutoffDate.getDate() - daysBack);
   const dateStr = cutoffDate.toISOString().split('T')[0];
   
-  // This query WORKS - tested and verified!
+
   const query = `
 PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>

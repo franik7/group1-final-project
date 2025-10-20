@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-10-20 05:46:38">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<application_name>AI Compliance Command Center</application_name>
+<application_scope>x_snc_ai_complia_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>AC3 Regulatory Alerts - Initial Setup</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>40ef4d4483b432107f44c85d50da1e1d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-20 05:46:38</sys_created_on>
+<sys_id>46021d4883b432107f44c85d50da1eed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-20 05:46:38</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_ef93ffb5836032107f44c85d50da1e75</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_extendable>false</is_extendable><label>Regulatory Alert</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_ai_complia_0_regulatory_alert</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-13 17:47:40</sys_created_on><sys_id>ef93ffb5836032107f44c85d50da1e75</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Regulatory Alert</sys_name><sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0">c203f775836032107f44c85d50da1e64</sys_package><sys_policy/><sys_scope display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</sys_scope><sys_update_name>sys_db_object_ef93ffb5836032107f44c85d50da1e75</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-13 17:47:40</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_ai_complia_0.regulatory_alert_user" name="x_snc_ai_complia_0.regulatory_alert_user">3fe33f35836032107f44c85d50da1e97</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-565871595</payload_hash>
+<remote_update_set display_value="AC3 Regulatory Alerts - Initial Setup">46021d4883b432107f44c85d50da1eed</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-20 05:46:38</sys_created_on>
+<sys_id>46021d4883b432107f44c85d50da1eee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a0023f5050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-20 05:46:38</sys_updated_on>
+<table>x_snc_ai_complia_0_regulatory_alert</table>
+<target_name>Regulatory Alert</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>30115d081bb43210533db3032f0caa3f</update_guid>
+<update_guid_history>30115d081bb43210533db3032f0caa3f:-565871595,49f33ff5f6603210ada379e471012f88:-565871595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_a8dc744c83b032107f44c85d50da1e27</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time&gt;1970-01-01 00:00:00&lt;/entered_time&gt;&lt;max_drift/&gt;&lt;name&gt;EU Regulatory Alerts Fetcher&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2025-10-20 04:13:57&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 00:00:00&lt;/run_time&gt;&lt;run_type&gt;on_demand&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[
+(function() {
+    var CLOUD_RUN_URL = 'https://ac3-eu-fetcher-641778144701.us-central1.run.app'; 
+    
+     try {
+        gs.info('Fetching EU regulatory data from Cloud Run...');
+        
+        // Call Cloud Run service
+        var rest = new sn_ws.RESTMessageV2();
+        rest.setHttpMethod('GET');
+        rest.setEndpoint(CLOUD_RUN_URL + '/api/eu-regulations');
+        rest.setQueryParameter('since', '365d');
+        rest.setQueryParameter('minScore', '60');
+        rest.setHttpTimeout(30000);
+        
+        var response = rest.execute();
+        
+        if (response.getStatusCode() != 200) {
+            gs.error('Cloud Run error: ' + response.getStatusCode());
+            return;
+        }
+        
+        var data = JSON.parse(response.getBody());
+        
+        if (!data.success) {
+            gs.error('Cloud Run returned error: ' + data.message);
+            return;
+        }
+        
+        var alertsCreated = 0;
+        
+        // Map each result to Regulatory Alerts table
+        for (var i = 0; i &lt; data.results.length; i++) {
+            var reg = data.results[i];
+            
+            try {
+                // Check if alert already exists (by source_url to prevent duplicates)
+                var existing = new GlideRecord('x_snc_ai_complia_0_regulatory_alert');
+                existing.addQuery('source_url', reg.url);
+                existing.query();
+                
+                if (!existing.next()) {
+                    // Create new alert - CORRECT TABLE NAME
+                    var alert = new GlideRecord('x_snc_ai_complia_0_regulatory_alert');
+                    alert.title = reg.title;
+                    alert.abstract = reg.description;
+                    alert.document_number = reg.celexId;
+                    alert.publication_date = reg.pubDate;
+                    alert.effective_date = reg.pubDate; // Using pubDate as fallback
+                    alert.source_url = reg.url;
+                    alert.regulation_source = 'EU';
+                    alert.document_type = reg.docType;
+                    alert.agencies = reg.trackedLaw || 'EU Commission';
+                    
+                    alert.insert();
+                    alertsCreated++;
+                    gs.info('Created alert: ' + reg.title);
+                }
+            } catch (e) {
+                gs.error('Error processing regulation: ' + e.message);
+            }
+        }
+        
+        gs.info('Successfully created ' + alertsCreated + ' new EU regulatory alerts');
+        
+    } catch (e) {
+        gs.error('Error: ' + e.message);
+    }
+})();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-20 04:38:04&lt;/sys_created_on&gt;&lt;sys_id&gt;a8dc744c83b032107f44c85d50da1e27&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;EU Regulatory Alerts Fetcher&lt;/sys_name&gt;&lt;sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0"&gt;c203f775836032107f44c85d50da1e64&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AI Compliance Command Center"&gt;c203f775836032107f44c85d50da1e64&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_a8dc744c83b032107f44c85d50da1e27&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-20 04:52:15&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1973667077</payload_hash>
+<remote_update_set display_value="AC3 Regulatory Alerts - Initial Setup">46021d4883b432107f44c85d50da1eed</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-20 05:46:38</sys_created_on>
+<sys_id>4a021d4883b432107f44c85d50da1eed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a0020d32f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-20 05:46:38</sys_updated_on>
+<table/>
+<target_name>EU Regulatory Alerts Fetcher</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>3e40114c6074321096c868f0adff95d9</update_guid>
+<update_guid_history>3e40114c6074321096c868f0adff95d9:-1973667077</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="AI Compliance Command Center">c203f775836032107f44c85d50da1e64</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_e1b5333d836032107f44c85d50da1ec7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time&gt;1970-01-01 00:00:00&lt;/entered_time&gt;&lt;max_drift/&gt;&lt;name&gt;Federal Register Alerts Fetcher&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2025-10-13 17:55:26&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 00:00:00&lt;/run_time&gt;&lt;run_type&gt;on_demand&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Federal Register AI Ingest - EXPANDED SEARCH TERMS
+ */
+(function () {
+    gs.info('=== Federal Register AI Ingest - Expanded Terms ===');
+
+    var startDate = '2024-01-01';
+    gs.info('Searching from: ' + startDate);
+
+    // ----------------------------------------------------
+    // MULTIPLE API CALLS with different search terms
+    // ----------------------------------------------------
+    var searchTerms = [
+        'artificial+intelligence',
+        'machine+learning',
+        'algorithmic+accountability',
+        'algorithmic+bias',
+        'automated+decision',
+        'neural+network',
+        'deep+learning',
+        'generative+AI',
+        'large+language+model',
+        'predictive+analytics',
+        'computer+vision',
+        'natural+language+processing'
+    ];
+
+    var allDocs = {};
+    var table = 'x_snc_ai_complia_0_regulatory_alert';
+    var totalFetched = 0;
+
+    // Run search for each term
+    searchTerms.forEach(function(term) {
+        gs.info('Searching for: ' + term.replace(/\+/g, ' '));
+        
+        var baseUrl = 'https://www.federalregister.gov/api/v1/documents.json';
+        var params = [
+            'per_page=1000',
+            'order=newest',
+            'conditions%5Bterm%5D=' + term,
+            'conditions%5Bpublication_date%5D%5Bgte%5D=' + startDate,
+            'fields%5B%5D=title',
+            'fields%5B%5D=html_url',
+            'fields%5B%5D=pdf_url',
+            'fields%5B%5D=document_number',
+            'fields%5B%5D=publication_date',
+            'fields%5B%5D=effective_on',
+            'fields%5B%5D=type',
+            'fields%5B%5D=abstract',
+            'fields%5B%5D=agencies'
+        ].join('&amp;');
+
+        var url = baseUrl + '?' + params;
+
+        var req = new sn_ws.RESTMessageV2();
+        req.setEndpoint(url);
+        req.setHttpMethod('GET');
+        req.setHttpTimeout(30000);
+
+        var res = req.execute();
+        
+        if (res.getStatusCode() !== 200) {
+            gs.error('API failed for term: ' + term);
+            return;
+        }
+
+        var body = JSON.parse(res.getBody());
+        var docs = body.results || [];
+        
+        gs.info('  Found: ' + docs.length + ' documents');
+        totalFetched += docs.length;
+
+        // Deduplicate by document_number
+        docs.forEach(function(doc) {
+            if (!allDocs[doc.document_number]) {
+                allDocs[doc.document_number] = doc;
+            }
+        });
+    });
+
+    // ----------------------------------------------------
+    // Process unique documents
+    // ----------------------------------------------------
+    var uniqueDocs = Object.keys(allDocs).map(function(key) {
+        return allDocs[key];
+    });
+
+    gs.info('Total fetched (with duplicates): ' + totalFetched);
+    gs.info('Unique documents: ' + uniqueDocs.length);
+
+    var inserted = 0, updated = 0;
+
+    uniqueDocs.forEach(function(doc) {
+        var number = doc.document_number + '';
+        var gr = new GlideRecord(table);
+        gr.addQuery('document_number', number);
+        gr.query();
+
+        var isNew = !gr.next();
+        
+        if (isNew) {
+            gr.initialize();
+        }
+
+        // Populate fields
+        gr.setValue('document_number', number);
+        gr.setValue('alert_title', doc.title || '');
+        gr.setValue('source_url', doc.html_url || '');
+        gr.setValue('pdf_url', doc.pdf_url || '');
+        gr.setValue('abstract', doc.abstract || '');
+        gr.setValue('regulation_source', 'Federal Register');
+        
+        if (doc.publication_date) {
+            gr.setValue('publication_date', doc.publication_date);
+        }
+        if (doc.effective_on) {
+            gr.setValue('effective_date', doc.effective_on);
+        }
+        if (doc.type) {
+            gr.setValue('document_type', mapDocumentType(doc.type));
+        }
+        
+        if (doc.agencies &amp;&amp; doc.agencies.length &gt; 0) {
+            var agencyNames = doc.agencies.map(function(agency) {
+                return agency.name || agency;
+            });
+            gr.setValue('agencies', agencyNames.join(', '));
+        }
+
+        if (isNew) {
+            gr.insert();
+            inserted++;
+            if (inserted &lt;= 10) {
+                gs.info('Inserted: ' + doc.title);
+            }
+        } else {
+            gr.update();
+            updated++;
+        }
+    });
+
+    gs.info('=== COMPLETE ===');
+    gs.info('Unique documents found: ' + uniqueDocs.length);
+    gs.info('Inserted: ' + inserted);
+    gs.info('Updated: ' + updated);
+
+    function mapDocumentType(apiType) {
+        var typeMap = {
+            'Rule': 'Final Rule',
+            'Proposed Rule': 'Proposed Rule',
+            'Notice': 'Notice',
+            'Presidential Document': 'Notice',
+            'Sunshine Act Document': 'Notice'
+        };
+        return typeMap[apiType] || apiType;
+    }
+
+})();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-13 17:55:44&lt;/sys_created_on&gt;&lt;sys_id&gt;e1b5333d836032107f44c85d50da1ec7&lt;/sys_id&gt;&lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;&lt;sys_name&gt;Federal Register Alerts Fetcher&lt;/sys_name&gt;&lt;sys_package display_value="AI Compliance Command Center" source="x_snc_ai_complia_0"&gt;c203f775836032107f44c85d50da1e64&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AI Compliance Command Center"&gt;c203f775836032107f44c85d50da1e64&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_e1b5333d836032107f44c85d50da1ec7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-20 05:33:35&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1705714035</payload_hash>
+<remote_update_set display_value="AC3 Regulatory Alerts - Initial Setup">46021d4883b432107f44c85d50da1eed</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-20 05:46:38</sys_created_on>
+<sys_id>82021d4883b432107f44c85d50da1eee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19a00211cd40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-20 05:46:38</sys_updated_on>
+<table/>
+<target_name>Federal Register Alerts Fetcher</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>9b5091c46eb4321054e844af5afb75cb</update_guid>
+<update_guid_history>9b5091c46eb4321054e844af5afb75cb:1705714035,423e4457aee0321046f09b240cdd9e19:-1979184288</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
