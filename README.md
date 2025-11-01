@@ -134,17 +134,6 @@ Each table includes role-specific references, audit trails, and digital signatur
 
 ---
 
-## 🗓️ Presentation Coordination
-
-- Final practice 8:30 AM (before 10 AM presentation).  
-- Business attire, cameras on, virtual backgrounds set.  
-- Tasks:  
-  - Regulatory alerts owner: refine alerts pipeline and live diagram walkthrough.  
-  - Script owner: update to *Kura Capital LLC*, improve closing, add logo.  
-  - Visuals owner: export transparent flow diagrams and prepare Q&A notes.
-
----
-
 ## 🌍 Future Work
 
 - Integrate ATS connectors (Greenhouse, Workday).  
